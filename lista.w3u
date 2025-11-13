@@ -1,5 +1,5 @@
 {
-  "name": "TOTALSPORT v3",
+  "name": "TOTALSPORT ▶️ZPO",
   "author": "⚽🏀🏈🎾🏎️",
   "url": "https://www.dropbox.com/scl/fi/oq2bga4p1fn1ns8l1ysm1/DEPORTES-WISE-v2.txt?rlkey=obnbpk435qz97lvouc13u7458&e=1&st=zrvskhqr&dl=1",
   "image":"https://www.movistar.es/estaticos/imagenes/fichas-producto/dazn/ea-movistar-dazn-imagen-04-m.png",
@@ -828,7 +828,7 @@
 
 			{
              "name":"GOLF",
-			 "image": "https://i.ibb.co/vQMTsvC/GOLF.png",
+			 "image": "LOGOS/GOLF.png",
              "imageScale": "centerCrop",
              "stations":
             [ 
