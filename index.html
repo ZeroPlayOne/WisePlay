@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces Modernos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            background-color: #1e1e1e; /* Fondo oscuro más profundo */
+            color: #fff; /* Texto blanco para contraste */
+            flex-direction: column; /* Alineamos el contenido de forma vertical */
+        }
+        .logo {
+            max-width: 150px; /* Ajustamos el tamaño de la imagen */
+            margin-bottom: 30px; /* Separación entre la imagen y el recuadro */
+        }
+        .link-container {
+            text-align: center;
+            background-color: #222; /* Fondo más oscuro del contenedor */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6); /* Sombra más pronunciada */
+            max-width: 90%; /* Asegura que no se desborde en pantallas pequeñas */
+            width: 1000px; /* Aumento del ancho a 1000px para pantallas grandes */
+            word-wrap: break-word; /* Permite que las URLs largas se ajusten dentro del contenedor */
+            overflow-wrap: break-word; /* Asegura que las URLs largas se ajusten */
+        }
+        .link-container p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #aaa; /* Texto gris suave */
+        }
+        .link-container a {
+            display: block;
+            font-size: 16px;
+            margin: 15px 0;
+            text-decoration: none;
+            font-weight: 500;
+            letter-spacing: 1px;
+            position: relative;
+            padding: 5px 0;
+            transition: all 0.3s ease;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        .link-container a.url-larga {
+            color: #00e5ff; /* Color cian brillante para la URL larga */
+        }
+        .link-container a.url-corta {
+            color: #76ff03; /* Color verde brillante para la URL corta */
+        }
+        .link-container a:hover {
+            color: #ff4081; /* Color rosa neón al hacer hover */
+        }
+        .link-container a::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2px;
+            background-color: inherit;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        .link-container a:hover::before {
+            transform: scaleX(1);
+        }
+    </style>
+</head>
+<body>
+    <img src="Wiseplay.png" alt="Logo" class="logo"> <!-- Logo encima del recuadro -->
+    
+    <div class="link-container">
+        <p>Accede a la lista de reproducción (URL larga):</p>
+        <a href="https://raw.githubusercontent.com/ZeroPlayOne/WisePlay/refs/heads/main/lista.w3u" target="_blank" class="url-larga">
+            https://raw.githubusercontent.com/ZeroPlayOne/WisePlay/refs/heads/main/lista.w3u
+        </a>
+        <p>Accede a la URL corta:</p>
+        <a href="https://bit.ly/TotalSport3" target="_blank" class="url-corta">
+            https://bit.ly/TotalSport3
+        </a>
+    </div>
+</body>
+</html>
