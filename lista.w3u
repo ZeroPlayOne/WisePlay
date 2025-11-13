@@ -828,7 +828,7 @@
 
 			{
              "name":"GOLF",
-			 "image": "LOGOS/GOLF.png",
+			 "image": "https://i.ibb.co/g7tFPzS/M-Golf.png",
              "imageScale": "centerCrop",
              "stations":
             [ 
