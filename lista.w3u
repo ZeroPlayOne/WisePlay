@@ -828,7 +828,7 @@
 
 			{
              "name":"GOLF",
-			 "image": "https://i.ibb.co/84NhbmD5/GOLF.png",
+			 "image": "https://raw.githubusercontent.com/ZeroPlayOne/WisePlay/refs/heads/main/LOGO/GOLF/GOLF.png",
              "imageScale": "centerCrop",
              "stations":
             [ 
@@ -836,21 +836,21 @@
 					{
 					"name": "M. GOLF",
 					"info": "ELCANO 1080p",
-					"image": "https://i.ibb.co/g7tFPzS/M-Golf.png",
+					"image": "https://raw.githubusercontent.com/ZeroPlayOne/WisePlay/refs/heads/main/LOGO/GOLF/M%2B%20Golf.png",
 					"url": "acestream://872608e734992db636eb79426802cd08f4029afb",
 					"isHost": "true" 
 					},
 					{
 					"name": "M. GOLF",
 					"info": "1080p NE",
-					"image": "https://i.ibb.co/g7tFPzS/M-Golf.png",
+					"image": "https://raw.githubusercontent.com/ZeroPlayOne/WisePlay/refs/heads/main/LOGO/GOLF/M%2B%20Golf.png",
 					"url": "acestream://8546cff89e4ee8bf3ad31cf6457c3bc2c4341031",
 					"isHost": "true" 
 					},
 					{
 					"name": "M. GOLF",
 					"info": "Shickat",
-					"image": "https://i.ibb.co/g7tFPzS/M-Golf.png",
+					"image": "https://raw.githubusercontent.com/ZeroPlayOne/WisePlay/refs/heads/main/LOGO/GOLF/M%2B%20Golf.png",
 					"url": "acestream://0f5550c9842eac2c295bece78968f77d84159b48",
 					"isHost": "true" 
 					},
@@ -864,7 +864,7 @@
 					{
 					"name": "M. GOLF",
 					"info": "🔍 Search",
-					"image": "https://i.ibb.co/g7tFPzS/M-Golf.png",
+					"image": "https://raw.githubusercontent.com/ZeroPlayOne/WisePlay/refs/heads/main/LOGO/GOLF/M%2B%20Golf.png",
 					"url": "acestream://872608e734992db636eb79426802cd08f4029afb",
 					"isHost": "true" 
 					},
